@@ -12,6 +12,7 @@
 		D02C934227B4E55500838DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02C934127B4E55500838DD0 /* Assets.xcassets */; };
 		D02C934527B4E55500838DD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02C934427B4E55500838DD0 /* Preview Assets.xcassets */; };
 		D02C934C27B4E57100838DD0 /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C934B27B4E57100838DD0 /* MyVStackView.swift */; };
+		D0E7A1A927B4F1B300ED63E6 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7A1A827B4F1B300ED63E6 /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D02C934127B4E55500838DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02C934427B4E55500838DD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D02C934B27B4E57100838DD0 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		D0E7A1A827B4F1B300ED63E6 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				D02C934127B4E55500838DD0 /* Assets.xcassets */,
 				D02C934327B4E55500838DD0 /* Preview Content */,
 				D02C934B27B4E57100838DD0 /* MyVStackView.swift */,
+				D0E7A1A827B4F1B300ED63E6 /* MyTextView.swift */,
 			);
 			path = "SwiftUi_tutorial#1";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02C934027B4E55400838DD0 /* ContentView.swift in Sources */,
+				D0E7A1A927B4F1B300ED63E6 /* MyTextView.swift in Sources */,
 				D02C933E27B4E55400838DD0 /* SwiftUi_tutorial_1App.swift in Sources */,
 				D02C934C27B4E57100838DD0 /* MyVStackView.swift in Sources */,
 			);
