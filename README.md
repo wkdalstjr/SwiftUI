@@ -1,2 +1,2 @@
 # SwiftUI
-SwiftUI_Project
+SwiftUI_Study
