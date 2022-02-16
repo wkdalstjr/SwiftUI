@@ -34,12 +34,8 @@ struct ContentView: View {
                     VStack {
                         MyProjectCard()
                         MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
-                        MyBasicCard()
+                        MyCard(icon: "tray.fill", title: "책상 정리", start: "10 PM", end: "11 PM", bgColor: Color.blue)
+                        
                     } // Vstack
                     .padding()
                     
