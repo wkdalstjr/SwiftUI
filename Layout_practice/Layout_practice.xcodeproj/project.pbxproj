@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D06F07F727BCCAE80030AF56 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06F07F627BCCAE80030AF56 /* MyCard.swift */; };
 		D074108E27BE1E6C00AE9358 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074108D27BE1E6C00AE9358 /* MyList.swift */; };
+		D074109027BE2CA200AE9358 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074108F27BE2CA200AE9358 /* MyNavigationView.swift */; };
 		D09E4BCE27BB755D00C07F89 /* Layout_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09E4BCD27BB755D00C07F89 /* Layout_practiceApp.swift */; };
 		D09E4BD027BB755D00C07F89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09E4BCF27BB755D00C07F89 /* ContentView.swift */; };
 		D09E4BD227BB755E00C07F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09E4BD127BB755E00C07F89 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		D06F07F627BCCAE80030AF56 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		D074108D27BE1E6C00AE9358 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
+		D074108F27BE2CA200AE9358 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
 		D09E4BCA27BB755D00C07F89 /* Layout_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09E4BCD27BB755D00C07F89 /* Layout_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout_practiceApp.swift; sourceTree = "<group>"; };
 		D09E4BCF27BB755D00C07F89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				D09E4BDD27BB79A500C07F89 /* MyBasicCard.swift */,
 				D06F07F627BCCAE80030AF56 /* MyCard.swift */,
 				D074108D27BE1E6C00AE9358 /* MyList.swift */,
+				D074108F27BE2CA200AE9358 /* MyNavigationView.swift */,
 			);
 			path = Layout_practice;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				D06F07F727BCCAE80030AF56 /* MyCard.swift in Sources */,
 				D09E4BCE27BB755D00C07F89 /* Layout_practiceApp.swift in Sources */,
 				D074108E27BE1E6C00AE9358 /* MyList.swift in Sources */,
+				D074109027BE2CA200AE9358 /* MyNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
