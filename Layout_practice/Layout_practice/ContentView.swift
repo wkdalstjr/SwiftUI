@@ -8,54 +8,73 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isNavigationBarHidden : Bool = false
+    
     var body: some View {
         
-        ZStack(alignment: .bottomTrailing) {
-         
-            VStack(alignment: .leading, spacing: 0) {
-                
-                HStack {
-                    Image(systemName: "line.horizontal.3")
-                        .font(.largeTitle)
-                    Spacer()
-                    Image(systemName: "person.crop.circle.fill")
-                        .font(.largeTitle)
-                    
-                } //Hstack
-                .padding(20)
+        NavigationView {
+            
+            ZStack(alignment: .bottomTrailing) {
              
-                Text("wkdalstjr 할 일 목록")
-                    .font(.system(size: 33))
-                    .fontWeight(.black)
-                    .padding(.horizontal, 20)
-                
-                
-                ScrollView {
-                    VStack {
-                        MyProjectCard()
-                        MyBasicCard()
-                        MyCard(icon: "tray.fill", title: "책상 정리", start: "10 PM", end: "11 PM", bgColor: Color.blue)
-                        
-                    } // Vstack
-                    .padding()
+                VStack(alignment: .leading, spacing: 0) {
                     
-                } // ScrollView
-                
-            } //Vstack
+                    HStack {
+                        NavigationLink(destination: MyList(isNavigationBarHidden: self.$isNavigationBarHidden)) {
+                            Image(systemName: "line.horizontal.3")
+                                .font(.largeTitle)
+                                .foregroundColor(.black)
+                        }
+                            
+                        Spacer()
+                        Image(systemName: "person.crop.circle.fill")
+                            .font(.largeTitle)
+                        
+                    } //Hstack
+                    .padding(20)
+                 
+                    Text("wkdalstjr 할 일 목록")
+                        .font(.system(size: 33))
+                        .fontWeight(.black)
+                        .padding(.horizontal, 20)
+                    
+                    
+                    ScrollView {
+                        VStack {
+                            MyProjectCard()
+                            MyBasicCard()
+                            MyCard(icon: "tray.fill", title: "책상 정리", start: "10 PM", end: "11 PM", bgColor: Color.blue)
+                            MyCard(icon: "display", title: "유튜브 시청", start: "8 PM", end: "10 PM", bgColor: Color.orange)
+                            MyCard(icon: "gamecontroller.fill", title: "롤 한판", start: "11 PM", end: "12 PM", bgColor: Color.purple)
+                            
+                        } // Vstack
+                        .padding()
+                        
+                    } // ScrollView
+                    
+                } //Vstack
 
+                
+                Circle()
+                    .foregroundColor(.yellow)
+                    .frame(width: 60, height: 60)
+                    .overlay(
+                        Image(systemName: "plus")
+                            .font(.system(size: 30))
+                            .foregroundColor(.white)
+                    )
+                    .padding(10)
+                    .shadow(radius: 20)
+                
+            } // Zstack
+            .navigationTitle("메인")
+            .navigationBarHidden(self.isNavigationBarHidden)
+            .onAppear{
+                self.isNavigationBarHidden = true
+            }
             
-            Circle()
-                .foregroundColor(.yellow)
-                .frame(width: 60, height: 60)
-                .overlay(
-                    Image(systemName: "plus")
-                        .font(.system(size: 30))
-                        .foregroundColor(.white)
-                )
-                .padding(10)
-                .shadow(radius: 20)
-            
-        }
+        } // NavigationView
+        
     }
 }
 
