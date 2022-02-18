@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03D639827BF724600125259 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D639727BF724600125259 /* MyProfileView.swift */; };
+		D03D639A27BF73BA00125259 /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D639927BF73BA00125259 /* MyCircleImageView.swift */; };
 		D06F07F727BCCAE80030AF56 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06F07F627BCCAE80030AF56 /* MyCard.swift */; };
 		D074108E27BE1E6C00AE9358 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074108D27BE1E6C00AE9358 /* MyList.swift */; };
 		D074109027BE2CA200AE9358 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074108F27BE2CA200AE9358 /* MyNavigationView.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D03D639727BF724600125259 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		D03D639927BF73BA00125259 /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
 		D06F07F627BCCAE80030AF56 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		D074108D27BE1E6C00AE9358 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		D074108F27BE2CA200AE9358 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				D06F07F627BCCAE80030AF56 /* MyCard.swift */,
 				D074108D27BE1E6C00AE9358 /* MyList.swift */,
 				D074108F27BE2CA200AE9358 /* MyNavigationView.swift */,
+				D03D639727BF724600125259 /* MyProfileView.swift */,
+				D03D639927BF73BA00125259 /* MyCircleImageView.swift */,
 			);
 			path = Layout_practice;
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03D639A27BF73BA00125259 /* MyCircleImageView.swift in Sources */,
+				D03D639827BF724600125259 /* MyProfileView.swift in Sources */,
 				D09E4BDC27BB758500C07F89 /* MyProjectCard.swift in Sources */,
 				D09E4BD027BB755D00C07F89 /* ContentView.swift in Sources */,
 				D09E4BDE27BB79A500C07F89 /* MyBasicCard.swift in Sources */,
