@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01616F027E066BB005F80E1 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01616EF27E066BB005F80E1 /* MyTabView.swift */; };
+		D01616F227E06841005F80E1 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01616F127E06841005F80E1 /* MyView.swift */; };
 		D03D639827BF724600125259 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D639727BF724600125259 /* MyProfileView.swift */; };
 		D03D639A27BF73BA00125259 /* MyCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D639927BF73BA00125259 /* MyCircleImageView.swift */; };
 		D06F07F727BCCAE80030AF56 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06F07F627BCCAE80030AF56 /* MyCard.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D01616EF27E066BB005F80E1 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		D01616F127E06841005F80E1 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		D03D639727BF724600125259 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
 		D03D639927BF73BA00125259 /* MyCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleImageView.swift; sourceTree = "<group>"; };
 		D06F07F627BCCAE80030AF56 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 				D0EAF05227C4CF9E00E22887 /* MyGeometryReader.swift */,
 				D0EAF05427C4D25600E22887 /* MyGeometryReaderVStack.swift */,
 				D03D639927BF73BA00125259 /* MyCircleImageView.swift */,
+				D01616EF27E066BB005F80E1 /* MyTabView.swift */,
+				D01616F127E06841005F80E1 /* MyView.swift */,
 			);
 			path = Layout_practice;
 			sourceTree = "<group>";
@@ -174,7 +180,9 @@
 				D06F07F727BCCAE80030AF56 /* MyCard.swift in Sources */,
 				D09E4BCE27BB755D00C07F89 /* Layout_practiceApp.swift in Sources */,
 				D074108E27BE1E6C00AE9358 /* MyList.swift in Sources */,
+				D01616F027E066BB005F80E1 /* MyTabView.swift in Sources */,
 				D074109027BE2CA200AE9358 /* MyNavigationView.swift in Sources */,
+				D01616F227E06841005F80E1 /* MyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
